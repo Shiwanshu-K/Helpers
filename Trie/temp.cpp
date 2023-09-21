@@ -92,8 +92,6 @@ struct trie_node * search_trie(trie_node * head,string inp){
 }
 
 int main(){
-
-
     vector<string> list;
     int size;
     cout<<"Enter arr size"<<endl;
