@@ -1,3 +1,8 @@
+#Binary Files without extension
+*
+!/**/
+!*.*
+
 ##### MacOS
 # General
 .DS_Store
@@ -28,3 +33,8 @@ out/
 *.su
 *.idb
 *.pdb
+
+# Remove Temp Experiments
+temp.*
+test.*
+

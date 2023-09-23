@@ -69,7 +69,7 @@ namespace SKU
 
     std::vector<std::string> Trie::trieToList(struct trieNode *node)
     {
-        if (head == NULL)
+        if (node == NULL)
             return {};
 
         std::vector<std::string> list;
